@@ -1,10 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Links from "./Links"
 
 function App() {
   return (
-    <div>
-      <h1>Lomitr.ee</h1>
-    </div>
+    <Fragment>
+      <Header />
+      <Links/>
+      <Footer />
+    </Fragment>
   );
 }
 
